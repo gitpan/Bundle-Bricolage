@@ -1,14 +1,13 @@
 package Bundle::Bricolage;
 
-our $VERSION = '1.6.0';
+our $VERSION = '1.6.1';
 
 1;
 __END__
 
 =head1 NAME
 
-Bundle::Bricolage - Modules required to run Bricolage content management
-system.
+Bundle::Bricolage - Modules required to run Bricolage content management system.
 
 =head1 SYNOPSIS
 
