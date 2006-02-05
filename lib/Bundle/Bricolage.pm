@@ -1,6 +1,6 @@
 package Bundle::Bricolage;
 
-our $VERSION = '1.9.0';
+our $VERSION = '1.10.0';
 
 1;
 __END__
@@ -107,13 +107,11 @@ SOAP::Lite 0.55 - Client and server side SOAP implementation
 
 File::Temp - Return Name and Handle of a Temporary File Safely
 
-Text::Soundex - Implementation of the Soundex Algorithm as Described by Knuth
+Text::LevenshteinXS - XS implementation of the Levenshtein edit distance
 
 Locale::Maketext - Framework for Localization in Perl
 
 Test::Class - xUnit/JUnit style Test Suite System
-
-HTTP::BrowserDetect - Determine the Web browser, version, and platform from an HTTP user agent string
 
 Params::CallbackRequest 1.10 - Functional and object-oriented callback architecture
 
@@ -129,6 +127,12 @@ Term::ReadPassword - Prompt for passwords without echoing to the terminal
 
 Data::UUID - Generate globally/universally unique identifiers (GUIDs/UUIDs)
 
+List::Util - A selection of general-utility list subroutines
+
+List::MoreUtils - Provides the stuff missing in List::Util
+
+URI::Escape - Escape and unescape unsafe URI characters
+
 =head1 AUTHOR
 
 David Wheeler <david@kineticode.com>
@@ -142,7 +146,7 @@ optional in Bricolage.
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright (c) 2002-2005, David Wheeler. All Rights Reserved.
+Copyright (c) 2002-2006, David Wheeler. All Rights Reserved.
 
 This module is free software; you can redistribute it and/or modify it under
 the same terms as Perl itself.

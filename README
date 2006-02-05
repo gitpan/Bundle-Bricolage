@@ -1,5 +1,5 @@
-Bundle/Bricolage version 1.9.0
-==============================
+Bundle/Bricolage version 1.10.0
+===============================
 
 DESCRIPTION
 
@@ -51,12 +51,9 @@ XML::Simple              - Easy API to read/write XML (esp config files)
 IO::Stringy              - I/O on in-core objects like strings and arrays
 SOAP::Lite 0.55          - Client and server side SOAP implementation
 File::Temp               - Return name and handle of a temporary file safely
-Text::Soundex            - Implementation of the Soundex Algorithm as Described
-                           by Knuth
+Text::LevenshteinXS      - XS implementation of the Levenshtein edit distance
 Locale::Maketext         - Framework for Localization in Perl
 Test::Class              - xUnit/JUnit style Test Suite System
-HTTP::BrowserDetect      - Determine the Web browser, version, and platform
-                           from an HTTP user agent string
 Params::CallbackRequest 1.10       - Functional and object-oriented callback
                                      architecture
 MasonX::Interp::WithCallbacks 1.10 - Mason callback support via
@@ -67,6 +64,9 @@ DateTime::TimeZone       - Time zone object base class and factory
 Term::ReadPassword       - Prompt for passwords without echoing to the terminal
 Data::UUID               - Generate globally/universally unique identifiers
                            (GUIDs/UUIDs)
+List::Util               - A selection of general-utility list subroutines
+List::MoreUtils          - Provides the stuff missing in List::Util
+URI::Escape              - Escape and unescape unsafe URI characters
 
 INSTALLATION
 
@@ -76,7 +76,7 @@ To install this module type the following as root:
 
 COPYRIGHT AND LICENCE
 
-Copyright (c) 2002-2005, David Wheeler. All Rights Reserved.
+Copyright (c) 2002-2006, David Wheeler. All Rights Reserved.
 
 This module is free software; you can redistribute it and/or modify it under
 the same terms as Perl itself.
